@@ -1,0 +1,1 @@
+detectorTest.d: ../detectorTest.cpp
