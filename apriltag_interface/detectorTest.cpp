@@ -6,5 +6,14 @@
  */
 
 
+#include"AprilTagInterface.hpp"
 
-
+int main()
+{
+	AprilTagInterface april;
+	while(true)
+	{
+		april.processFrame();
+		tagFrame frame = april.getFrame();
+	}
+}

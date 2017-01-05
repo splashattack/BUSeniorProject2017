@@ -44,7 +44,7 @@ all: apriltag_interface
 apriltag_interface: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++  -o "apriltag_interface" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L/usr/lib/i386-linux-gnu/ -o "apriltag_interface" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

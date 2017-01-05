@@ -8,7 +8,7 @@
 #ifndef APRILTAGINTERFACE_HPP_
 #define APRILTAGINTERFACE_HPP_
 
-#define EXPOSURE_CONTROL 1
+#define EXPOSURE_CONTROL 0
 #define ORIENTATION 1
 
 #include <string>
@@ -19,11 +19,13 @@
 #include <iostream>
 #include <sys/time.h>
 
+#if EXPOSURE_CONTROL==1
 //exposure control
 #include <libv4l2.h>
 #include <linux/videodev2.h>
 #include <fcntl.h>
 #include <errno.h>
+#endif
 
 // OpenCV library for easy access to USB camera and drawing of images
 // on screen
@@ -81,7 +83,7 @@ public:
 	virtual ~AprilTagInterface();
 
 	void processFrame();
-	tagFrame getFrame();
+	inline tagFrame getFrame() {return m_frame;};
 };
 
 #endif /* APRILTAGINTERFACE_HPP_ */

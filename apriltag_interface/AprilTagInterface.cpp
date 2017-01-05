@@ -122,7 +122,7 @@ void AprilTagInterface::processFrame()
 	//Update frame with current detections
 	m_frame.clear();
 	std::cout << detections.size() << " tags detected:" << std::endl;
-	for (int i=0; i<detections.size(); i++) {
+	for (uint8_t i=0; i<detections.size(); i++) {
 		detectionInfo currentTagInfo;
 	    std::cout << "  Id: " << detections[i].id
 	              << " (Hamming: " << detections[i].hammingDistance << ")";
