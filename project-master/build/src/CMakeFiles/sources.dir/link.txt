@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsources.a  CMakeFiles/sources.dir/AprilTagInterface.cpp.o
+/usr/bin/ranlib libsources.a

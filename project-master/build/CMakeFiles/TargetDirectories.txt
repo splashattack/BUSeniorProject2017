@@ -1,0 +1,3 @@
+/home/user/project-master/build/lib/AprilTags/CMakeFiles/apriltaglib.dir
+/home/user/project-master/build/example/CMakeFiles/aptiltags_interface.dir
+/home/user/project-master/build/src/CMakeFiles/sources.dir
