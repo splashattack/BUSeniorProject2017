@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/apriltags
+CMAKE_SOURCE_DIR = /home/user/shared/Quadcopter-Repo/apriltags
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/apriltags/pod-build
+CMAKE_BINARY_DIR = /home/user/shared/Quadcopter-Repo/apriltags/pod-build
 
 # Include any dependencies generated for this target.
 include example/CMakeFiles/apriltags_demo.dir/depend.make
@@ -51,17 +51,17 @@ include example/CMakeFiles/apriltags_demo.dir/flags.make
 
 example/CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.o: example/CMakeFiles/apriltags_demo.dir/flags.make
 example/CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.o: ../example/apriltags_demo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/apriltags/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/Quadcopter-Repo/apriltags/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object example/CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.o"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.o -c /home/user/apriltags/example/apriltags_demo.cpp
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.o -c /home/user/shared/Quadcopter-Repo/apriltags/example/apriltags_demo.cpp
 
 example/CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.i"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/apriltags/example/apriltags_demo.cpp > CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.i
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/Quadcopter-Repo/apriltags/example/apriltags_demo.cpp > CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.i
 
 example/CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.s"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/apriltags/example/apriltags_demo.cpp -o CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.s
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/Quadcopter-Repo/apriltags/example/apriltags_demo.cpp -o CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.s
 
 example/CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.o.requires:
 .PHONY : example/CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.o.requires
@@ -74,17 +74,17 @@ example/CMakeFiles/apriltags_demo.dir/apriltags_demo.cpp.o.provides.build: examp
 
 example/CMakeFiles/apriltags_demo.dir/Serial.cpp.o: example/CMakeFiles/apriltags_demo.dir/flags.make
 example/CMakeFiles/apriltags_demo.dir/Serial.cpp.o: ../example/Serial.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/apriltags/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/Quadcopter-Repo/apriltags/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object example/CMakeFiles/apriltags_demo.dir/Serial.cpp.o"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags_demo.dir/Serial.cpp.o -c /home/user/apriltags/example/Serial.cpp
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltags_demo.dir/Serial.cpp.o -c /home/user/shared/Quadcopter-Repo/apriltags/example/Serial.cpp
 
 example/CMakeFiles/apriltags_demo.dir/Serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltags_demo.dir/Serial.cpp.i"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/apriltags/example/Serial.cpp > CMakeFiles/apriltags_demo.dir/Serial.cpp.i
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/Quadcopter-Repo/apriltags/example/Serial.cpp > CMakeFiles/apriltags_demo.dir/Serial.cpp.i
 
 example/CMakeFiles/apriltags_demo.dir/Serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltags_demo.dir/Serial.cpp.s"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/apriltags/example/Serial.cpp -o CMakeFiles/apriltags_demo.dir/Serial.cpp.s
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/Quadcopter-Repo/apriltags/example/Serial.cpp -o CMakeFiles/apriltags_demo.dir/Serial.cpp.s
 
 example/CMakeFiles/apriltags_demo.dir/Serial.cpp.o.requires:
 .PHONY : example/CMakeFiles/apriltags_demo.dir/Serial.cpp.o.requires
@@ -127,7 +127,7 @@ bin/apriltags_demo: /usr/lib/i386-linux-gnu/libopencv_flann.so.2.4.9
 bin/apriltags_demo: /usr/lib/i386-linux-gnu/libopencv_core.so.2.4.9
 bin/apriltags_demo: example/CMakeFiles/apriltags_demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../bin/apriltags_demo"
-	cd /home/user/apriltags/pod-build/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apriltags_demo.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apriltags_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/CMakeFiles/apriltags_demo.dir/build: bin/apriltags_demo
@@ -138,10 +138,10 @@ example/CMakeFiles/apriltags_demo.dir/requires: example/CMakeFiles/apriltags_dem
 .PHONY : example/CMakeFiles/apriltags_demo.dir/requires
 
 example/CMakeFiles/apriltags_demo.dir/clean:
-	cd /home/user/apriltags/pod-build/example && $(CMAKE_COMMAND) -P CMakeFiles/apriltags_demo.dir/cmake_clean.cmake
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && $(CMAKE_COMMAND) -P CMakeFiles/apriltags_demo.dir/cmake_clean.cmake
 .PHONY : example/CMakeFiles/apriltags_demo.dir/clean
 
 example/CMakeFiles/apriltags_demo.dir/depend:
-	cd /home/user/apriltags/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/apriltags /home/user/apriltags/example /home/user/apriltags/pod-build /home/user/apriltags/pod-build/example /home/user/apriltags/pod-build/example/CMakeFiles/apriltags_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/shared/Quadcopter-Repo/apriltags /home/user/shared/Quadcopter-Repo/apriltags/example /home/user/shared/Quadcopter-Repo/apriltags/pod-build /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example/CMakeFiles/apriltags_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/CMakeFiles/apriltags_demo.dir/depend
 

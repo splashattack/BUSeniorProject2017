@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user/apriltags/example/Serial.cpp" "/home/user/apriltags/pod-build/example/CMakeFiles/imu.dir/Serial.cpp.o"
-  "/home/user/apriltags/example/imu.cpp" "/home/user/apriltags/pod-build/example/CMakeFiles/imu.dir/imu.cpp.o"
+  "/home/user/shared/Quadcopter-Repo/apriltags/example/Serial.cpp" "/home/user/shared/Quadcopter-Repo/apriltags/pod-build/example/CMakeFiles/imu.dir/Serial.cpp.o"
+  "/home/user/shared/Quadcopter-Repo/apriltags/example/imu.cpp" "/home/user/shared/Quadcopter-Repo/apriltags/pod-build/example/CMakeFiles/imu.dir/imu.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/user/apriltags/pod-build/CMakeFiles/apriltags.dir/DependInfo.cmake"
+  "/home/user/shared/Quadcopter-Repo/apriltags/pod-build/CMakeFiles/apriltags.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

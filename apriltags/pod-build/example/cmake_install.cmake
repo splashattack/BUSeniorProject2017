@@ -1,8 +1,8 @@
-# Install script for directory: /home/user/apriltags/example
+# Install script for directory: /home/user/shared/Quadcopter-Repo/apriltags/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/user/apriltags/build")
+  set(CMAKE_INSTALL_PREFIX "/home/user/shared/Quadcopter-Repo/apriltags/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,15 +37,15 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/apriltags_demo")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/apriltags_demo"
-         RPATH "/home/user/apriltags/build/lib")
+         RPATH "/home/user/shared/Quadcopter-Repo/apriltags/build/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/user/apriltags/pod-build/bin/apriltags_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/user/shared/Quadcopter-Repo/apriltags/pod-build/bin/apriltags_demo")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/apriltags_demo" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/apriltags_demo")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/apriltags_demo"
-         OLD_RPATH "/home/user/apriltags/pod-build/lib:/home/user/apriltags/build/lib:"
-         NEW_RPATH "/home/user/apriltags/build/lib")
+         OLD_RPATH "/home/user/shared/Quadcopter-Repo/apriltags/pod-build/lib:/home/user/shared/Quadcopter-Repo/apriltags/build/lib:"
+         NEW_RPATH "/home/user/shared/Quadcopter-Repo/apriltags/build/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/apriltags_demo")
     endif()
@@ -57,15 +57,15 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/imu")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/imu"
-         RPATH "/home/user/apriltags/build/lib")
+         RPATH "/home/user/shared/Quadcopter-Repo/apriltags/build/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/user/apriltags/pod-build/bin/imu")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/user/shared/Quadcopter-Repo/apriltags/pod-build/bin/imu")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/imu" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/imu")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/imu"
-         OLD_RPATH "/home/user/apriltags/pod-build/lib:/home/user/apriltags/build/lib:"
-         NEW_RPATH "/home/user/apriltags/build/lib")
+         OLD_RPATH "/home/user/shared/Quadcopter-Repo/apriltags/pod-build/lib:/home/user/shared/Quadcopter-Repo/apriltags/build/lib:"
+         NEW_RPATH "/home/user/shared/Quadcopter-Repo/apriltags/build/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/imu")
     endif()

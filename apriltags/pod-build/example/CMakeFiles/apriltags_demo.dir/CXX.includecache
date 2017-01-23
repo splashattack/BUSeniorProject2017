@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/user/apriltags/example/Serial.cpp
+/home/user/shared/Quadcopter-Repo/apriltags/example/Serial.cpp
 fcntl.h
 -
 termios.h
@@ -20,13 +20,13 @@ sstream
 unistd.h
 -
 Serial.h
-/home/user/apriltags/example/Serial.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/Serial.h
 
-/home/user/apriltags/example/Serial.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/Serial.h
 string
 -
 
-/home/user/apriltags/example/apriltags_demo.cpp
+/home/user/shared/Quadcopter-Repo/apriltags/example/apriltags_demo.cpp
 iostream
 -
 cstring
@@ -46,23 +46,23 @@ fcntl.h
 errno.h
 -
 opencv2/opencv.hpp
-/home/user/apriltags/example/opencv2/opencv.hpp
+/home/user/shared/Quadcopter-Repo/apriltags/example/opencv2/opencv.hpp
 AprilTags/TagDetector.h
-/home/user/apriltags/example/AprilTags/TagDetector.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/AprilTags/TagDetector.h
 AprilTags/Tag16h5.h
-/home/user/apriltags/example/AprilTags/Tag16h5.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/AprilTags/Tag16h5.h
 AprilTags/Tag25h7.h
-/home/user/apriltags/example/AprilTags/Tag25h7.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/AprilTags/Tag25h7.h
 AprilTags/Tag25h9.h
-/home/user/apriltags/example/AprilTags/Tag25h9.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/AprilTags/Tag25h9.h
 AprilTags/Tag36h9.h
-/home/user/apriltags/example/AprilTags/Tag36h9.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/AprilTags/Tag36h9.h
 AprilTags/Tag36h11.h
-/home/user/apriltags/example/AprilTags/Tag36h11.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/AprilTags/Tag36h11.h
 unistd.h
 -
 Serial.h
-/home/user/apriltags/example/Serial.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/Serial.h
 cmath
 -
 

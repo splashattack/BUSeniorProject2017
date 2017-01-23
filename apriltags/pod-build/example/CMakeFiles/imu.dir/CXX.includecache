@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/user/apriltags/example/Serial.cpp
+/home/user/shared/Quadcopter-Repo/apriltags/example/Serial.cpp
 fcntl.h
 -
 termios.h
@@ -20,13 +20,13 @@ sstream
 unistd.h
 -
 Serial.h
-/home/user/apriltags/example/Serial.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/Serial.h
 
-/home/user/apriltags/example/Serial.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/Serial.h
 string
 -
 
-/home/user/apriltags/example/imu.cpp
+/home/user/shared/Quadcopter-Repo/apriltags/example/imu.cpp
 iostream
 -
 string
@@ -36,5 +36,5 @@ stdio.h
 math.h
 -
 Serial.h
-/home/user/apriltags/example/Serial.h
+/home/user/shared/Quadcopter-Repo/apriltags/example/Serial.h
 

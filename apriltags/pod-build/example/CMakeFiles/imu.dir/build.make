@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/apriltags
+CMAKE_SOURCE_DIR = /home/user/shared/Quadcopter-Repo/apriltags
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/apriltags/pod-build
+CMAKE_BINARY_DIR = /home/user/shared/Quadcopter-Repo/apriltags/pod-build
 
 # Include any dependencies generated for this target.
 include example/CMakeFiles/imu.dir/depend.make
@@ -51,17 +51,17 @@ include example/CMakeFiles/imu.dir/flags.make
 
 example/CMakeFiles/imu.dir/imu.cpp.o: example/CMakeFiles/imu.dir/flags.make
 example/CMakeFiles/imu.dir/imu.cpp.o: ../example/imu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/apriltags/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/Quadcopter-Repo/apriltags/pod-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object example/CMakeFiles/imu.dir/imu.cpp.o"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/imu.dir/imu.cpp.o -c /home/user/apriltags/example/imu.cpp
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/imu.dir/imu.cpp.o -c /home/user/shared/Quadcopter-Repo/apriltags/example/imu.cpp
 
 example/CMakeFiles/imu.dir/imu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu.dir/imu.cpp.i"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/apriltags/example/imu.cpp > CMakeFiles/imu.dir/imu.cpp.i
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/Quadcopter-Repo/apriltags/example/imu.cpp > CMakeFiles/imu.dir/imu.cpp.i
 
 example/CMakeFiles/imu.dir/imu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu.dir/imu.cpp.s"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/apriltags/example/imu.cpp -o CMakeFiles/imu.dir/imu.cpp.s
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/Quadcopter-Repo/apriltags/example/imu.cpp -o CMakeFiles/imu.dir/imu.cpp.s
 
 example/CMakeFiles/imu.dir/imu.cpp.o.requires:
 .PHONY : example/CMakeFiles/imu.dir/imu.cpp.o.requires
@@ -74,17 +74,17 @@ example/CMakeFiles/imu.dir/imu.cpp.o.provides.build: example/CMakeFiles/imu.dir/
 
 example/CMakeFiles/imu.dir/Serial.cpp.o: example/CMakeFiles/imu.dir/flags.make
 example/CMakeFiles/imu.dir/Serial.cpp.o: ../example/Serial.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/apriltags/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/Quadcopter-Repo/apriltags/pod-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object example/CMakeFiles/imu.dir/Serial.cpp.o"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/imu.dir/Serial.cpp.o -c /home/user/apriltags/example/Serial.cpp
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/imu.dir/Serial.cpp.o -c /home/user/shared/Quadcopter-Repo/apriltags/example/Serial.cpp
 
 example/CMakeFiles/imu.dir/Serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu.dir/Serial.cpp.i"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/apriltags/example/Serial.cpp > CMakeFiles/imu.dir/Serial.cpp.i
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/Quadcopter-Repo/apriltags/example/Serial.cpp > CMakeFiles/imu.dir/Serial.cpp.i
 
 example/CMakeFiles/imu.dir/Serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu.dir/Serial.cpp.s"
-	cd /home/user/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/apriltags/example/Serial.cpp -o CMakeFiles/imu.dir/Serial.cpp.s
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/Quadcopter-Repo/apriltags/example/Serial.cpp -o CMakeFiles/imu.dir/Serial.cpp.s
 
 example/CMakeFiles/imu.dir/Serial.cpp.o.requires:
 .PHONY : example/CMakeFiles/imu.dir/Serial.cpp.o.requires
@@ -127,7 +127,7 @@ bin/imu: /usr/lib/i386-linux-gnu/libopencv_flann.so.2.4.9
 bin/imu: /usr/lib/i386-linux-gnu/libopencv_core.so.2.4.9
 bin/imu: example/CMakeFiles/imu.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../bin/imu"
-	cd /home/user/apriltags/pod-build/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imu.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/CMakeFiles/imu.dir/build: bin/imu
@@ -138,10 +138,10 @@ example/CMakeFiles/imu.dir/requires: example/CMakeFiles/imu.dir/Serial.cpp.o.req
 .PHONY : example/CMakeFiles/imu.dir/requires
 
 example/CMakeFiles/imu.dir/clean:
-	cd /home/user/apriltags/pod-build/example && $(CMAKE_COMMAND) -P CMakeFiles/imu.dir/cmake_clean.cmake
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example && $(CMAKE_COMMAND) -P CMakeFiles/imu.dir/cmake_clean.cmake
 .PHONY : example/CMakeFiles/imu.dir/clean
 
 example/CMakeFiles/imu.dir/depend:
-	cd /home/user/apriltags/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/apriltags /home/user/apriltags/example /home/user/apriltags/pod-build /home/user/apriltags/pod-build/example /home/user/apriltags/pod-build/example/CMakeFiles/imu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/shared/Quadcopter-Repo/apriltags /home/user/shared/Quadcopter-Repo/apriltags/example /home/user/shared/Quadcopter-Repo/apriltags/pod-build /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example /home/user/shared/Quadcopter-Repo/apriltags/pod-build/example/CMakeFiles/imu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/CMakeFiles/imu.dir/depend
 

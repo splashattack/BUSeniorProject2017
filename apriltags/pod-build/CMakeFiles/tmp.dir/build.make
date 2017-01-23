@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/apriltags
+CMAKE_SOURCE_DIR = /home/user/shared/Quadcopter-Repo/apriltags
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/apriltags/pod-build
+CMAKE_BINARY_DIR = /home/user/shared/Quadcopter-Repo/apriltags/pod-build
 
 # Utility rule file for tmp.
 
@@ -60,6 +60,6 @@ CMakeFiles/tmp.dir/clean:
 .PHONY : CMakeFiles/tmp.dir/clean
 
 CMakeFiles/tmp.dir/depend:
-	cd /home/user/apriltags/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/apriltags /home/user/apriltags /home/user/apriltags/pod-build /home/user/apriltags/pod-build /home/user/apriltags/pod-build/CMakeFiles/tmp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/shared/Quadcopter-Repo/apriltags/pod-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/shared/Quadcopter-Repo/apriltags /home/user/shared/Quadcopter-Repo/apriltags /home/user/shared/Quadcopter-Repo/apriltags/pod-build /home/user/shared/Quadcopter-Repo/apriltags/pod-build /home/user/shared/Quadcopter-Repo/apriltags/pod-build/CMakeFiles/tmp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tmp.dir/depend
 
