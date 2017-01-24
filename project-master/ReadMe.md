@@ -20,7 +20,7 @@ target_link_libraries(executable_name ${EXTRA_LIBS})
 
 ##Build Procedure
 + Open a terminal in `build/`
-+ When significant changes have been made (such as adding/removing files or executables),  and issue the following commands:
++ When significant changes have been made (such as adding/removing files or executables), issue the following commands:
 ```
 rm -rf *
 cmake ..
