@@ -12,7 +12,7 @@ src/CMakeFiles/sources.dir/AprilTagInterface.cpp.o
  ../lib/AprilTags/TagDetection.h
  ../lib/AprilTags/TagDetector.h
  ../lib/AprilTags/TagFamily.h
- /home/user/project-master/src/AprilTagInterface.cpp
+ /home/user/shared/BUSeniorProject2017/project-master/src/AprilTagInterface.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

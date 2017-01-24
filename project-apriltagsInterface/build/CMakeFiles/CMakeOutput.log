@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,41 +23,41 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1804241299/fast"
-make: Warning: File 'Makefile' has modification time 0.63 s in the future
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1804241299.dir/build.make CMakeFiles/cmTryCompileExec1804241299.dir/build
-make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File 'CMakeFiles/cmTryCompileExec1804241299.dir/flags.make' has modification time 0.61 s in the future
-/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1804241299.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1804241299.dir/testCCompiler.c.o   -c /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec1804241299
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1804241299.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1804241299.dir/testCCompiler.c.o  -o cmTryCompileExec1804241299 -rdynamic 
-make[1]: Leaving directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4114429302/fast"
+make: Warning: File 'Makefile' has modification time 1.7 s in the future
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4114429302.dir/build.make CMakeFiles/cmTryCompileExec4114429302.dir/build
+make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTryCompileExec4114429302.dir/flags.make' has modification time 1.7 s in the future
+/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4114429302.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4114429302.dir/testCCompiler.c.o   -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4114429302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4114429302.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4114429302.dir/testCCompiler.c.o  -o cmTryCompileExec4114429302 -rdynamic 
+make[1]: Leaving directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp'
 make[1]: warning:  Clock skew detected.  Your build may be incomplete.
 make: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec161896018/fast"
-make: Warning: File 'Makefile' has modification time 0.66 s in the future
-/usr/bin/make -f CMakeFiles/cmTryCompileExec161896018.dir/build.make CMakeFiles/cmTryCompileExec161896018.dir/build
-make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File 'CMakeFiles/cmTryCompileExec161896018.dir/flags.make' has modification time 0.64 s in the future
-/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec161896018.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec161896018.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec161896018
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec161896018.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTryCompileExec161896018.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec161896018 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2710534494/fast"
+make: Warning: File 'Makefile' has modification time 1.7 s in the future
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2710534494.dir/build.make CMakeFiles/cmTryCompileExec2710534494.dir/build
+make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTryCompileExec2710534494.dir/flags.make' has modification time 1.7 s in the future
+/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2710534494.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2710534494.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2710534494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2710534494.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2710534494.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2710534494 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper
@@ -67,28 +67,28 @@ Thread model: posix
 gcc version 4.9.2 (Debian 4.9.2-10) 
 COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec161896018' '-rdynamic' '-mtune=generic' '-march=i586'
- /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZMkjEc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec161896018 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec161896018.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2710534494' '-rdynamic' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgHR66W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2710534494 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2710534494.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp'
 make[1]: warning:  Clock skew detected.  Your build may be incomplete.
 make: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec161896018/fast"]
-  ignore line: [make: Warning: File 'Makefile' has modification time 0.66 s in the future]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec161896018.dir/build.make CMakeFiles/cmTryCompileExec161896018.dir/build]
-  ignore line: [make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp']
-  ignore line: [make[1]: Warning: File 'CMakeFiles/cmTryCompileExec161896018.dir/flags.make' has modification time 0.64 s in the future]
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec161896018.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec161896018.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec161896018]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec161896018.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec161896018.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec161896018 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2710534494/fast"]
+  ignore line: [make: Warning: File 'Makefile' has modification time 1.7 s in the future]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2710534494.dir/build.make CMakeFiles/cmTryCompileExec2710534494.dir/build]
+  ignore line: [make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Warning: File 'CMakeFiles/cmTryCompileExec2710534494.dir/flags.make' has modification time 1.7 s in the future]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2710534494.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2710534494.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2710534494]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2710534494.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2710534494.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2710534494 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper]
@@ -98,13 +98,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec161896018' '-rdynamic' '-mtune=generic' '-march=i586']
-  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZMkjEc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec161896018 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec161896018.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2710534494' '-rdynamic' '-mtune=generic' '-march=i586']
+  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgHR66W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2710534494 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2710534494.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccZMkjEc.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgHR66W.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -120,7 +120,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib/ld-linux.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec161896018] ==> ignore
+    arg [cmTryCompileExec2710534494] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o] ==> ignore
@@ -132,7 +132,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..]
-    arg [CMakeFiles/cmTryCompileExec161896018.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2710534494.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -162,38 +162,38 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1748608973/fast"
-make: Warning: File 'Makefile' has modification time 0.66 s in the future
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1748608973.dir/build.make CMakeFiles/cmTryCompileExec1748608973.dir/build
-make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File 'CMakeFiles/cmTryCompileExec1748608973.dir/flags.make' has modification time 0.63 s in the future
-/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1748608973.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1748608973.dir/testCXXCompiler.cxx.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec1748608973
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1748608973.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec1748608973.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1748608973 -rdynamic 
-make[1]: Leaving directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1048560773/fast"
+make: Warning: File 'Makefile' has modification time 1.7 s in the future
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1048560773.dir/build.make CMakeFiles/cmTryCompileExec1048560773.dir/build
+make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTryCompileExec1048560773.dir/flags.make' has modification time 1.7 s in the future
+/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1048560773.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1048560773.dir/testCXXCompiler.cxx.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1048560773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1048560773.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1048560773.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1048560773 -rdynamic 
+make[1]: Leaving directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp'
 make[1]: warning:  Clock skew detected.  Your build may be incomplete.
 make: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2356513926/fast"
-make: Warning: File 'Makefile' has modification time 0.64 s in the future
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2356513926.dir/build.make CMakeFiles/cmTryCompileExec2356513926.dir/build
-make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File 'CMakeFiles/cmTryCompileExec2356513926.dir/flags.make' has modification time 0.62 s in the future
-/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2356513926.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2356513926.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec2356513926
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2356513926.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2356513926.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2356513926 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4046396338/fast"
+make: Warning: File 'Makefile' has modification time 1.7 s in the future
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4046396338.dir/build.make CMakeFiles/cmTryCompileExec4046396338.dir/build
+make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTryCompileExec4046396338.dir/flags.make' has modification time 1.7 s in the future
+/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4046396338.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4046396338.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec4046396338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4046396338.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4046396338.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4046396338 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper
@@ -203,28 +203,28 @@ Thread model: posix
 gcc version 4.9.2 (Debian 4.9.2-10) 
 COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2356513926' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586'
- /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvdAGGz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2356513926 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2356513926.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4046396338' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRsjK0q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec4046396338 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec4046396338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp'
 make[1]: warning:  Clock skew detected.  Your build may be incomplete.
 make: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2356513926/fast"]
-  ignore line: [make: Warning: File 'Makefile' has modification time 0.64 s in the future]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2356513926.dir/build.make CMakeFiles/cmTryCompileExec2356513926.dir/build]
-  ignore line: [make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp']
-  ignore line: [make[1]: Warning: File 'CMakeFiles/cmTryCompileExec2356513926.dir/flags.make' has modification time 0.62 s in the future]
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2356513926.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2356513926.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec2356513926]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2356513926.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2356513926.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2356513926 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec4046396338/fast"]
+  ignore line: [make: Warning: File 'Makefile' has modification time 1.7 s in the future]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4046396338.dir/build.make CMakeFiles/cmTryCompileExec4046396338.dir/build]
+  ignore line: [make[1]: Entering directory '/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Warning: File 'CMakeFiles/cmTryCompileExec4046396338.dir/flags.make' has modification time 1.7 s in the future]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4046396338.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4046396338.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec4046396338]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4046396338.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4046396338.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4046396338 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper]
@@ -234,13 +234,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2356513926' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586']
-  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvdAGGz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2356513926 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2356513926.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4046396338' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586']
+  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRsjK0q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec4046396338 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec4046396338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccvdAGGz.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRsjK0q.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -256,7 +256,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib/ld-linux.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec2356513926] ==> ignore
+    arg [cmTryCompileExec4046396338] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o] ==> ignore
@@ -268,7 +268,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..]
-    arg [CMakeFiles/cmTryCompileExec2356513926.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec4046396338.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]

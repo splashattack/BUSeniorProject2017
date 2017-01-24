@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/shared/BUSeniorProject2017/apriltags_interface
+CMAKE_SOURCE_DIR = /home/user/shared/BUSeniorProject2017/project-apriltagsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/shared/BUSeniorProject2017/apriltags_interface/build
+CMAKE_BINARY_DIR = /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build
 
 # Include any dependencies generated for this target.
 include lib/AprilTags/CMakeFiles/apriltaglib.dir/depend.make
@@ -51,17 +51,17 @@ include lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.o: ../lib/AprilTags/Edge.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Edge.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Edge.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Edge.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Edge.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/Edge.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Edge.cc > CMakeFiles/apriltaglib.dir/Edge.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Edge.cc > CMakeFiles/apriltaglib.dir/Edge.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/Edge.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Edge.cc -o CMakeFiles/apriltaglib.dir/Edge.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Edge.cc -o CMakeFiles/apriltaglib.dir/Edge.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.o.requires
@@ -74,17 +74,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.o.provides.build: lib/AprilTags
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.o: ../lib/AprilTags/FloatImage.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/FloatImage.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/FloatImage.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/FloatImage.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/FloatImage.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/FloatImage.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/FloatImage.cc > CMakeFiles/apriltaglib.dir/FloatImage.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/FloatImage.cc > CMakeFiles/apriltaglib.dir/FloatImage.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/FloatImage.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/FloatImage.cc -o CMakeFiles/apriltaglib.dir/FloatImage.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/FloatImage.cc -o CMakeFiles/apriltaglib.dir/FloatImage.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.o.requires
@@ -97,17 +97,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.o.provides.build: lib/Apr
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.o: ../lib/AprilTags/Gaussian.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Gaussian.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Gaussian.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Gaussian.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Gaussian.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/Gaussian.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Gaussian.cc > CMakeFiles/apriltaglib.dir/Gaussian.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Gaussian.cc > CMakeFiles/apriltaglib.dir/Gaussian.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/Gaussian.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Gaussian.cc -o CMakeFiles/apriltaglib.dir/Gaussian.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Gaussian.cc -o CMakeFiles/apriltaglib.dir/Gaussian.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.o.requires
@@ -120,17 +120,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.o.provides.build: lib/April
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.o: ../lib/AprilTags/GLine2D.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/GLine2D.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/GLine2D.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/GLine2D.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/GLine2D.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/GLine2D.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/GLine2D.cc > CMakeFiles/apriltaglib.dir/GLine2D.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/GLine2D.cc > CMakeFiles/apriltaglib.dir/GLine2D.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/GLine2D.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/GLine2D.cc -o CMakeFiles/apriltaglib.dir/GLine2D.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/GLine2D.cc -o CMakeFiles/apriltaglib.dir/GLine2D.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.o.requires
@@ -143,17 +143,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.o.provides.build: lib/AprilT
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o: ../lib/AprilTags/GLineSegment2D.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/GLineSegment2D.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/GLineSegment2D.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/GLineSegment2D.cc > CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/GLineSegment2D.cc > CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/GLineSegment2D.cc -o CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/GLineSegment2D.cc -o CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o.requires
@@ -166,17 +166,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o.provides.build: lib
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.o: ../lib/AprilTags/GrayModel.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/GrayModel.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/GrayModel.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/GrayModel.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/GrayModel.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/GrayModel.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/GrayModel.cc > CMakeFiles/apriltaglib.dir/GrayModel.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/GrayModel.cc > CMakeFiles/apriltaglib.dir/GrayModel.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/GrayModel.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/GrayModel.cc -o CMakeFiles/apriltaglib.dir/GrayModel.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/GrayModel.cc -o CMakeFiles/apriltaglib.dir/GrayModel.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.o.requires
@@ -189,17 +189,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.o.provides.build: lib/Apri
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.o: ../lib/AprilTags/Homography33.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Homography33.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Homography33.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Homography33.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Homography33.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/Homography33.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Homography33.cc > CMakeFiles/apriltaglib.dir/Homography33.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Homography33.cc > CMakeFiles/apriltaglib.dir/Homography33.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/Homography33.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Homography33.cc -o CMakeFiles/apriltaglib.dir/Homography33.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Homography33.cc -o CMakeFiles/apriltaglib.dir/Homography33.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.o.requires
@@ -212,17 +212,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.o.provides.build: lib/A
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.o: ../lib/AprilTags/MathUtil.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/MathUtil.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/MathUtil.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/MathUtil.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/MathUtil.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/MathUtil.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/MathUtil.cc > CMakeFiles/apriltaglib.dir/MathUtil.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/MathUtil.cc > CMakeFiles/apriltaglib.dir/MathUtil.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/MathUtil.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/MathUtil.cc -o CMakeFiles/apriltaglib.dir/MathUtil.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/MathUtil.cc -o CMakeFiles/apriltaglib.dir/MathUtil.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.o.requires
@@ -235,17 +235,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.o.provides.build: lib/April
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.o: ../lib/AprilTags/Quad.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Quad.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Quad.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Quad.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Quad.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/Quad.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Quad.cc > CMakeFiles/apriltaglib.dir/Quad.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Quad.cc > CMakeFiles/apriltaglib.dir/Quad.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/Quad.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Quad.cc -o CMakeFiles/apriltaglib.dir/Quad.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Quad.cc -o CMakeFiles/apriltaglib.dir/Quad.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.o.requires
@@ -258,17 +258,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.o.provides.build: lib/AprilTags
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.o: ../lib/AprilTags/Segment.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Segment.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Segment.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/Segment.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Segment.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/Segment.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Segment.cc > CMakeFiles/apriltaglib.dir/Segment.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Segment.cc > CMakeFiles/apriltaglib.dir/Segment.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/Segment.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/Segment.cc -o CMakeFiles/apriltaglib.dir/Segment.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/Segment.cc -o CMakeFiles/apriltaglib.dir/Segment.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.o.requires
@@ -281,17 +281,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.o.provides.build: lib/AprilT
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.o: ../lib/AprilTags/TagDetection.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/TagDetection.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/TagDetection.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/TagDetection.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/TagDetection.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/TagDetection.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/TagDetection.cc > CMakeFiles/apriltaglib.dir/TagDetection.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/TagDetection.cc > CMakeFiles/apriltaglib.dir/TagDetection.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/TagDetection.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/TagDetection.cc -o CMakeFiles/apriltaglib.dir/TagDetection.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/TagDetection.cc -o CMakeFiles/apriltaglib.dir/TagDetection.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.o.requires
@@ -304,17 +304,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.o.provides.build: lib/A
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.o: ../lib/AprilTags/TagDetector.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/TagDetector.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/TagDetector.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/TagDetector.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/TagDetector.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/TagDetector.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/TagDetector.cc > CMakeFiles/apriltaglib.dir/TagDetector.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/TagDetector.cc > CMakeFiles/apriltaglib.dir/TagDetector.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/TagDetector.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/TagDetector.cc -o CMakeFiles/apriltaglib.dir/TagDetector.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/TagDetector.cc -o CMakeFiles/apriltaglib.dir/TagDetector.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.o.requires
@@ -327,17 +327,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.o.provides.build: lib/Ap
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.o: ../lib/AprilTags/TagFamily.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/TagFamily.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/TagFamily.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/TagFamily.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/TagFamily.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/TagFamily.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/TagFamily.cc > CMakeFiles/apriltaglib.dir/TagFamily.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/TagFamily.cc > CMakeFiles/apriltaglib.dir/TagFamily.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/TagFamily.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/TagFamily.cc -o CMakeFiles/apriltaglib.dir/TagFamily.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/TagFamily.cc -o CMakeFiles/apriltaglib.dir/TagFamily.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.o.requires
@@ -350,17 +350,17 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.o.provides.build: lib/Apri
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.o: lib/AprilTags/CMakeFiles/apriltaglib.dir/flags.make
 lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.o: ../lib/AprilTags/UnionFindSimple.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.o"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.o -c /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/UnionFindSimple.cc
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.o -c /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/UnionFindSimple.cc
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.i"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/UnionFindSimple.cc > CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/UnionFindSimple.cc > CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.i
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.s"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags/UnionFindSimple.cc -o CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags/UnionFindSimple.cc -o CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.s
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.o.requires:
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.o.requires
@@ -408,8 +408,8 @@ lib/AprilTags/libapriltaglib.a: lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFi
 lib/AprilTags/libapriltaglib.a: lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make
 lib/AprilTags/libapriltaglib.a: lib/AprilTags/CMakeFiles/apriltaglib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libapriltaglib.a"
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && $(CMAKE_COMMAND) -P CMakeFiles/apriltaglib.dir/cmake_clean_target.cmake
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apriltaglib.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && $(CMAKE_COMMAND) -P CMakeFiles/apriltaglib.dir/cmake_clean_target.cmake
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apriltaglib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/AprilTags/CMakeFiles/apriltaglib.dir/build: lib/AprilTags/libapriltaglib.a
@@ -432,10 +432,10 @@ lib/AprilTags/CMakeFiles/apriltaglib.dir/requires: lib/AprilTags/CMakeFiles/apri
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/requires
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/clean:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags && $(CMAKE_COMMAND) -P CMakeFiles/apriltaglib.dir/cmake_clean.cmake
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags && $(CMAKE_COMMAND) -P CMakeFiles/apriltaglib.dir/cmake_clean.cmake
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/clean
 
 lib/AprilTags/CMakeFiles/apriltaglib.dir/depend:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/shared/BUSeniorProject2017/apriltags_interface /home/user/shared/BUSeniorProject2017/apriltags_interface/lib/AprilTags /home/user/shared/BUSeniorProject2017/apriltags_interface/build /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags/CMakeFiles/apriltaglib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/shared/BUSeniorProject2017/project-apriltagsInterface /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/lib/AprilTags /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags/CMakeFiles/apriltaglib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/depend
 

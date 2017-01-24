@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/shared/BUSeniorProject2017/apriltags_interface
+CMAKE_SOURCE_DIR = /home/user/shared/BUSeniorProject2017/project-apriltagsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/shared/BUSeniorProject2017/apriltags_interface/build
+CMAKE_BINARY_DIR = /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,14 +73,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles /home/user/shared/BUSeniorProject2017/apriltags_interface/build/sources/CMakeFiles/progress.marks
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles 0
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/sources/CMakeFiles/progress.marks
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/clean
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/clean
 .PHONY : clean
 
 # The main clean target
@@ -89,22 +89,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/preinstall
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/preinstall
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sources/CMakeFiles/sources.dir/rule:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/CMakeFiles/sources.dir/rule
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 sources/CMakeFiles/sources.dir/rule
 .PHONY : sources/CMakeFiles/sources.dir/rule
 
 # Convenience name for target.
@@ -113,7 +113,7 @@ sources: sources/CMakeFiles/sources.dir/rule
 
 # fast build rule for target.
 sources/fast:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f sources/CMakeFiles/sources.dir/build.make sources/CMakeFiles/sources.dir/build
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f sources/CMakeFiles/sources.dir/build.make sources/CMakeFiles/sources.dir/build
 .PHONY : sources/fast
 
 AprilTagInterface.o: AprilTagInterface.cpp.o
@@ -121,7 +121,7 @@ AprilTagInterface.o: AprilTagInterface.cpp.o
 
 # target to build an object file
 AprilTagInterface.cpp.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f sources/CMakeFiles/sources.dir/build.make sources/CMakeFiles/sources.dir/AprilTagInterface.cpp.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f sources/CMakeFiles/sources.dir/build.make sources/CMakeFiles/sources.dir/AprilTagInterface.cpp.o
 .PHONY : AprilTagInterface.cpp.o
 
 AprilTagInterface.i: AprilTagInterface.cpp.i
@@ -129,7 +129,7 @@ AprilTagInterface.i: AprilTagInterface.cpp.i
 
 # target to preprocess a source file
 AprilTagInterface.cpp.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f sources/CMakeFiles/sources.dir/build.make sources/CMakeFiles/sources.dir/AprilTagInterface.cpp.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f sources/CMakeFiles/sources.dir/build.make sources/CMakeFiles/sources.dir/AprilTagInterface.cpp.i
 .PHONY : AprilTagInterface.cpp.i
 
 AprilTagInterface.s: AprilTagInterface.cpp.s
@@ -137,7 +137,7 @@ AprilTagInterface.s: AprilTagInterface.cpp.s
 
 # target to generate assembly for a file
 AprilTagInterface.cpp.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f sources/CMakeFiles/sources.dir/build.make sources/CMakeFiles/sources.dir/AprilTagInterface.cpp.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f sources/CMakeFiles/sources.dir/build.make sources/CMakeFiles/sources.dir/AprilTagInterface.cpp.s
 .PHONY : AprilTagInterface.cpp.s
 
 # Help Target
@@ -163,6 +163,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

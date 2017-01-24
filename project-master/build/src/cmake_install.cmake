@@ -1,4 +1,4 @@
-# Install script for directory: /home/user/project-master/src
+# Install script for directory: /home/user/shared/BUSeniorProject2017/project-master/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

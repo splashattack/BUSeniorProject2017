@@ -1,4 +1,4 @@
-# Install script for directory: /home/user/project-master
+# Install script for directory: /home/user/shared/BUSeniorProject2017/project-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/user/project-master/build/lib/AprilTags/cmake_install.cmake")
-  include("/home/user/project-master/build/src/cmake_install.cmake")
-  include("/home/user/project-master/build/example/cmake_install.cmake")
+  include("/home/user/shared/BUSeniorProject2017/project-master/build/lib/AprilTags/cmake_install.cmake")
+  include("/home/user/shared/BUSeniorProject2017/project-master/build/src/cmake_install.cmake")
+  include("/home/user/shared/BUSeniorProject2017/project-master/build/example/cmake_install.cmake")
 
 endif()
 
@@ -46,7 +46,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/home/user/project-master/build/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "/home/user/shared/BUSeniorProject2017/project-master/build/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/home/user/project-master/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "/home/user/shared/BUSeniorProject2017/project-master/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

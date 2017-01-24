@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/project-master
+CMAKE_SOURCE_DIR = /home/user/shared/BUSeniorProject2017/project-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/project-master/build
+CMAKE_BINARY_DIR = /home/user/shared/BUSeniorProject2017/project-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,14 +73,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/user/project-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/project-master/build/CMakeFiles /home/user/project-master/build/example/CMakeFiles/progress.marks
-	cd /home/user/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project-master/build/CMakeFiles 0
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles /home/user/shared/BUSeniorProject2017/project-master/build/example/CMakeFiles/progress.marks
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/user/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/clean
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/clean
 .PHONY : clean
 
 # The main clean target
@@ -89,22 +89,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/user/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/preinstall
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/user/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/preinstall
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/user/project-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 example/CMakeFiles/aptiltags_interface.dir/rule:
-	cd /home/user/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/aptiltags_interface.dir/rule
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/aptiltags_interface.dir/rule
 .PHONY : example/CMakeFiles/aptiltags_interface.dir/rule
 
 # Convenience name for target.
@@ -113,7 +113,7 @@ aptiltags_interface: example/CMakeFiles/aptiltags_interface.dir/rule
 
 # fast build rule for target.
 aptiltags_interface/fast:
-	cd /home/user/project-master/build && $(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/build
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/build
 .PHONY : aptiltags_interface/fast
 
 DetectionTest.o: DetectionTest.cpp.o
@@ -121,7 +121,7 @@ DetectionTest.o: DetectionTest.cpp.o
 
 # target to build an object file
 DetectionTest.cpp.o:
-	cd /home/user/project-master/build && $(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/DetectionTest.cpp.o
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/DetectionTest.cpp.o
 .PHONY : DetectionTest.cpp.o
 
 DetectionTest.i: DetectionTest.cpp.i
@@ -129,7 +129,7 @@ DetectionTest.i: DetectionTest.cpp.i
 
 # target to preprocess a source file
 DetectionTest.cpp.i:
-	cd /home/user/project-master/build && $(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/DetectionTest.cpp.i
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/DetectionTest.cpp.i
 .PHONY : DetectionTest.cpp.i
 
 DetectionTest.s: DetectionTest.cpp.s
@@ -137,7 +137,7 @@ DetectionTest.s: DetectionTest.cpp.s
 
 # target to generate assembly for a file
 DetectionTest.cpp.s:
-	cd /home/user/project-master/build && $(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/DetectionTest.cpp.s
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/DetectionTest.cpp.s
 .PHONY : DetectionTest.cpp.s
 
 # Help Target
@@ -163,6 +163,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/user/project-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/user/shared/BUSeniorProject2017/project-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

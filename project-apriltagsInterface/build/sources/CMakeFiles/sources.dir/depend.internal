@@ -11,8 +11,8 @@ sources/CMakeFiles/sources.dir/AprilTagInterface.cpp.o
  ../lib/AprilTags/TagDetection.h
  ../lib/AprilTags/TagDetector.h
  ../lib/AprilTags/TagFamily.h
- /home/user/shared/BUSeniorProject2017/apriltags_interface/sources/AprilTagInterface.cpp
- /home/user/shared/BUSeniorProject2017/apriltags_interface/sources/AprilTagInterface.hpp
+ /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/AprilTagInterface.cpp
+ /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/AprilTagInterface.hpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/shared/BUSeniorProject2017/apriltags_interface
+CMAKE_SOURCE_DIR = /home/user/shared/BUSeniorProject2017/project-apriltagsInterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/shared/BUSeniorProject2017/apriltags_interface/build
+CMAKE_BINARY_DIR = /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,14 +73,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles /home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags/CMakeFiles/progress.marks
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/apriltags_interface/build/CMakeFiles 0
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags/CMakeFiles/progress.marks
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/clean
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/clean
 .PHONY : clean
 
 # The main clean target
@@ -89,22 +89,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/preinstall
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/preinstall
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/AprilTags/CMakeFiles/apriltaglib.dir/rule:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/CMakeFiles/apriltaglib.dir/rule
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/CMakeFiles/apriltaglib.dir/rule
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/rule
 
 # Convenience name for target.
@@ -113,7 +113,7 @@ apriltaglib: lib/AprilTags/CMakeFiles/apriltaglib.dir/rule
 
 # fast build rule for target.
 apriltaglib/fast:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/build
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/build
 .PHONY : apriltaglib/fast
 
 Edge.o: Edge.cc.o
@@ -121,7 +121,7 @@ Edge.o: Edge.cc.o
 
 # target to build an object file
 Edge.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.o
 .PHONY : Edge.cc.o
 
 Edge.i: Edge.cc.i
@@ -129,7 +129,7 @@ Edge.i: Edge.cc.i
 
 # target to preprocess a source file
 Edge.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.i
 .PHONY : Edge.cc.i
 
 Edge.s: Edge.cc.s
@@ -137,7 +137,7 @@ Edge.s: Edge.cc.s
 
 # target to generate assembly for a file
 Edge.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Edge.cc.s
 .PHONY : Edge.cc.s
 
 FloatImage.o: FloatImage.cc.o
@@ -145,7 +145,7 @@ FloatImage.o: FloatImage.cc.o
 
 # target to build an object file
 FloatImage.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.o
 .PHONY : FloatImage.cc.o
 
 FloatImage.i: FloatImage.cc.i
@@ -153,7 +153,7 @@ FloatImage.i: FloatImage.cc.i
 
 # target to preprocess a source file
 FloatImage.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.i
 .PHONY : FloatImage.cc.i
 
 FloatImage.s: FloatImage.cc.s
@@ -161,7 +161,7 @@ FloatImage.s: FloatImage.cc.s
 
 # target to generate assembly for a file
 FloatImage.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/FloatImage.cc.s
 .PHONY : FloatImage.cc.s
 
 GLine2D.o: GLine2D.cc.o
@@ -169,7 +169,7 @@ GLine2D.o: GLine2D.cc.o
 
 # target to build an object file
 GLine2D.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.o
 .PHONY : GLine2D.cc.o
 
 GLine2D.i: GLine2D.cc.i
@@ -177,7 +177,7 @@ GLine2D.i: GLine2D.cc.i
 
 # target to preprocess a source file
 GLine2D.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.i
 .PHONY : GLine2D.cc.i
 
 GLine2D.s: GLine2D.cc.s
@@ -185,7 +185,7 @@ GLine2D.s: GLine2D.cc.s
 
 # target to generate assembly for a file
 GLine2D.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLine2D.cc.s
 .PHONY : GLine2D.cc.s
 
 GLineSegment2D.o: GLineSegment2D.cc.o
@@ -193,7 +193,7 @@ GLineSegment2D.o: GLineSegment2D.cc.o
 
 # target to build an object file
 GLineSegment2D.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.o
 .PHONY : GLineSegment2D.cc.o
 
 GLineSegment2D.i: GLineSegment2D.cc.i
@@ -201,7 +201,7 @@ GLineSegment2D.i: GLineSegment2D.cc.i
 
 # target to preprocess a source file
 GLineSegment2D.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.i
 .PHONY : GLineSegment2D.cc.i
 
 GLineSegment2D.s: GLineSegment2D.cc.s
@@ -209,7 +209,7 @@ GLineSegment2D.s: GLineSegment2D.cc.s
 
 # target to generate assembly for a file
 GLineSegment2D.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GLineSegment2D.cc.s
 .PHONY : GLineSegment2D.cc.s
 
 Gaussian.o: Gaussian.cc.o
@@ -217,7 +217,7 @@ Gaussian.o: Gaussian.cc.o
 
 # target to build an object file
 Gaussian.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.o
 .PHONY : Gaussian.cc.o
 
 Gaussian.i: Gaussian.cc.i
@@ -225,7 +225,7 @@ Gaussian.i: Gaussian.cc.i
 
 # target to preprocess a source file
 Gaussian.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.i
 .PHONY : Gaussian.cc.i
 
 Gaussian.s: Gaussian.cc.s
@@ -233,7 +233,7 @@ Gaussian.s: Gaussian.cc.s
 
 # target to generate assembly for a file
 Gaussian.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Gaussian.cc.s
 .PHONY : Gaussian.cc.s
 
 GrayModel.o: GrayModel.cc.o
@@ -241,7 +241,7 @@ GrayModel.o: GrayModel.cc.o
 
 # target to build an object file
 GrayModel.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.o
 .PHONY : GrayModel.cc.o
 
 GrayModel.i: GrayModel.cc.i
@@ -249,7 +249,7 @@ GrayModel.i: GrayModel.cc.i
 
 # target to preprocess a source file
 GrayModel.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.i
 .PHONY : GrayModel.cc.i
 
 GrayModel.s: GrayModel.cc.s
@@ -257,7 +257,7 @@ GrayModel.s: GrayModel.cc.s
 
 # target to generate assembly for a file
 GrayModel.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/GrayModel.cc.s
 .PHONY : GrayModel.cc.s
 
 Homography33.o: Homography33.cc.o
@@ -265,7 +265,7 @@ Homography33.o: Homography33.cc.o
 
 # target to build an object file
 Homography33.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.o
 .PHONY : Homography33.cc.o
 
 Homography33.i: Homography33.cc.i
@@ -273,7 +273,7 @@ Homography33.i: Homography33.cc.i
 
 # target to preprocess a source file
 Homography33.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.i
 .PHONY : Homography33.cc.i
 
 Homography33.s: Homography33.cc.s
@@ -281,7 +281,7 @@ Homography33.s: Homography33.cc.s
 
 # target to generate assembly for a file
 Homography33.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Homography33.cc.s
 .PHONY : Homography33.cc.s
 
 MathUtil.o: MathUtil.cc.o
@@ -289,7 +289,7 @@ MathUtil.o: MathUtil.cc.o
 
 # target to build an object file
 MathUtil.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.o
 .PHONY : MathUtil.cc.o
 
 MathUtil.i: MathUtil.cc.i
@@ -297,7 +297,7 @@ MathUtil.i: MathUtil.cc.i
 
 # target to preprocess a source file
 MathUtil.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.i
 .PHONY : MathUtil.cc.i
 
 MathUtil.s: MathUtil.cc.s
@@ -305,7 +305,7 @@ MathUtil.s: MathUtil.cc.s
 
 # target to generate assembly for a file
 MathUtil.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/MathUtil.cc.s
 .PHONY : MathUtil.cc.s
 
 Quad.o: Quad.cc.o
@@ -313,7 +313,7 @@ Quad.o: Quad.cc.o
 
 # target to build an object file
 Quad.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.o
 .PHONY : Quad.cc.o
 
 Quad.i: Quad.cc.i
@@ -321,7 +321,7 @@ Quad.i: Quad.cc.i
 
 # target to preprocess a source file
 Quad.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.i
 .PHONY : Quad.cc.i
 
 Quad.s: Quad.cc.s
@@ -329,7 +329,7 @@ Quad.s: Quad.cc.s
 
 # target to generate assembly for a file
 Quad.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Quad.cc.s
 .PHONY : Quad.cc.s
 
 Segment.o: Segment.cc.o
@@ -337,7 +337,7 @@ Segment.o: Segment.cc.o
 
 # target to build an object file
 Segment.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.o
 .PHONY : Segment.cc.o
 
 Segment.i: Segment.cc.i
@@ -345,7 +345,7 @@ Segment.i: Segment.cc.i
 
 # target to preprocess a source file
 Segment.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.i
 .PHONY : Segment.cc.i
 
 Segment.s: Segment.cc.s
@@ -353,7 +353,7 @@ Segment.s: Segment.cc.s
 
 # target to generate assembly for a file
 Segment.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/Segment.cc.s
 .PHONY : Segment.cc.s
 
 TagDetection.o: TagDetection.cc.o
@@ -361,7 +361,7 @@ TagDetection.o: TagDetection.cc.o
 
 # target to build an object file
 TagDetection.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.o
 .PHONY : TagDetection.cc.o
 
 TagDetection.i: TagDetection.cc.i
@@ -369,7 +369,7 @@ TagDetection.i: TagDetection.cc.i
 
 # target to preprocess a source file
 TagDetection.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.i
 .PHONY : TagDetection.cc.i
 
 TagDetection.s: TagDetection.cc.s
@@ -377,7 +377,7 @@ TagDetection.s: TagDetection.cc.s
 
 # target to generate assembly for a file
 TagDetection.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetection.cc.s
 .PHONY : TagDetection.cc.s
 
 TagDetector.o: TagDetector.cc.o
@@ -385,7 +385,7 @@ TagDetector.o: TagDetector.cc.o
 
 # target to build an object file
 TagDetector.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.o
 .PHONY : TagDetector.cc.o
 
 TagDetector.i: TagDetector.cc.i
@@ -393,7 +393,7 @@ TagDetector.i: TagDetector.cc.i
 
 # target to preprocess a source file
 TagDetector.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.i
 .PHONY : TagDetector.cc.i
 
 TagDetector.s: TagDetector.cc.s
@@ -401,7 +401,7 @@ TagDetector.s: TagDetector.cc.s
 
 # target to generate assembly for a file
 TagDetector.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagDetector.cc.s
 .PHONY : TagDetector.cc.s
 
 TagFamily.o: TagFamily.cc.o
@@ -409,7 +409,7 @@ TagFamily.o: TagFamily.cc.o
 
 # target to build an object file
 TagFamily.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.o
 .PHONY : TagFamily.cc.o
 
 TagFamily.i: TagFamily.cc.i
@@ -417,7 +417,7 @@ TagFamily.i: TagFamily.cc.i
 
 # target to preprocess a source file
 TagFamily.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.i
 .PHONY : TagFamily.cc.i
 
 TagFamily.s: TagFamily.cc.s
@@ -425,7 +425,7 @@ TagFamily.s: TagFamily.cc.s
 
 # target to generate assembly for a file
 TagFamily.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/TagFamily.cc.s
 .PHONY : TagFamily.cc.s
 
 UnionFindSimple.o: UnionFindSimple.cc.o
@@ -433,7 +433,7 @@ UnionFindSimple.o: UnionFindSimple.cc.o
 
 # target to build an object file
 UnionFindSimple.cc.o:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.o
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.o
 .PHONY : UnionFindSimple.cc.o
 
 UnionFindSimple.i: UnionFindSimple.cc.i
@@ -441,7 +441,7 @@ UnionFindSimple.i: UnionFindSimple.cc.i
 
 # target to preprocess a source file
 UnionFindSimple.cc.i:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.i
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.i
 .PHONY : UnionFindSimple.cc.i
 
 UnionFindSimple.s: UnionFindSimple.cc.s
@@ -449,7 +449,7 @@ UnionFindSimple.s: UnionFindSimple.cc.s
 
 # target to generate assembly for a file
 UnionFindSimple.cc.s:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.s
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/UnionFindSimple.cc.s
 .PHONY : UnionFindSimple.cc.s
 
 # Help Target
@@ -514,6 +514,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/user/shared/BUSeniorProject2017/apriltags_interface/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

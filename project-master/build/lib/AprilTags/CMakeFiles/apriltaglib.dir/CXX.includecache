@@ -6,41 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/user/project-master/lib/AprilTags/Edge.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Edge.cc
 Edge.h
-/home/user/project-master/lib/AprilTags/Edge.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Edge.h
 FloatImage.h
-/home/user/project-master/lib/AprilTags/FloatImage.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/FloatImage.h
 MathUtil.h
-/home/user/project-master/lib/AprilTags/MathUtil.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/MathUtil.h
 UnionFindSimple.h
-/home/user/project-master/lib/AprilTags/UnionFindSimple.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/UnionFindSimple.h
 
-/home/user/project-master/lib/AprilTags/Edge.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Edge.h
 vector
 -
 FloatImage.h
-/home/user/project-master/lib/AprilTags/FloatImage.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/FloatImage.h
 
-/home/user/project-master/lib/AprilTags/FloatImage.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/FloatImage.cc
 FloatImage.h
-/home/user/project-master/lib/AprilTags/FloatImage.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/FloatImage.h
 Gaussian.h
-/home/user/project-master/lib/AprilTags/Gaussian.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Gaussian.h
 iostream
 -
 
-/home/user/project-master/lib/AprilTags/FloatImage.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/FloatImage.h
 algorithm
 -
 vector
 -
 
-/home/user/project-master/lib/AprilTags/GLine2D.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLine2D.cc
 GLine2D.h
-/home/user/project-master/lib/AprilTags/GLine2D.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLine2D.h
 
-/home/user/project-master/lib/AprilTags/GLine2D.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLine2D.h
 cmath
 -
 utility
@@ -48,17 +48,17 @@ utility
 vector
 -
 MathUtil.h
-/home/user/project-master/lib/AprilTags/MathUtil.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/MathUtil.h
 XYWeight.h
-/home/user/project-master/lib/AprilTags/XYWeight.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/XYWeight.h
 
-/home/user/project-master/lib/AprilTags/GLineSegment2D.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLineSegment2D.cc
 GLineSegment2D.h
-/home/user/project-master/lib/AprilTags/GLineSegment2D.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLineSegment2D.h
 limits
 -
 
-/home/user/project-master/lib/AprilTags/GLineSegment2D.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLineSegment2D.h
 algorithm
 -
 cfloat
@@ -68,23 +68,23 @@ cmath
 utility
 -
 GLine2D.h
-/home/user/project-master/lib/AprilTags/GLine2D.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLine2D.h
 XYWeight.h
-/home/user/project-master/lib/AprilTags/XYWeight.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/XYWeight.h
 
-/home/user/project-master/lib/AprilTags/Gaussian.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Gaussian.cc
 Gaussian.h
-/home/user/project-master/lib/AprilTags/Gaussian.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Gaussian.h
 iostream
 -
 
-/home/user/project-master/lib/AprilTags/Gaussian.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Gaussian.h
 cmath
 -
 vector
 -
 
-/home/user/project-master/lib/AprilTags/GrayModel.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GrayModel.cc
 iostream
 -
 /usr/include/eigen3/Eigen/Dense
@@ -92,15 +92,15 @@ iostream
 /usr/include/eigen3/Eigen/LU
 -
 GrayModel.h
-/home/user/project-master/lib/AprilTags/GrayModel.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GrayModel.h
 
-/home/user/project-master/lib/AprilTags/GrayModel.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GrayModel.h
 /usr/include/eigen3/Eigen/Dense
 -
 vector
 -
 
-/home/user/project-master/lib/AprilTags/Gridder.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Gridder.h
 algorithm
 -
 iterator
@@ -108,9 +108,9 @@ iterator
 vector
 -
 Segment.h
-/home/user/project-master/lib/AprilTags/Segment.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Segment.h
 
-/home/user/project-master/lib/AprilTags/Homography33.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Homography33.cc
 iostream
 -
 /usr/include/eigen3/Eigen/Dense
@@ -118,9 +118,9 @@ iostream
 opencv2/opencv.hpp
 -
 Homography33.h
-/home/user/project-master/lib/AprilTags/Homography33.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Homography33.h
 
-/home/user/project-master/lib/AprilTags/Homography33.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Homography33.h
 utility
 -
 vector
@@ -128,11 +128,11 @@ vector
 /usr/include/eigen3/Eigen/Dense
 -
 
-/home/user/project-master/lib/AprilTags/MathUtil.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/MathUtil.cc
 MathUtil.h
-/home/user/project-master/lib/AprilTags/MathUtil.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/MathUtil.h
 
-/home/user/project-master/lib/AprilTags/MathUtil.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/MathUtil.h
 cmath
 -
 cfloat
@@ -144,21 +144,21 @@ ostream
 utility
 -
 
-/home/user/project-master/lib/AprilTags/Quad.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Quad.cc
 /usr/include/eigen3/Eigen/Dense
 -
 FloatImage.h
-/home/user/project-master/lib/AprilTags/FloatImage.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/FloatImage.h
 MathUtil.h
-/home/user/project-master/lib/AprilTags/MathUtil.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/MathUtil.h
 GLine2D.h
-/home/user/project-master/lib/AprilTags/GLine2D.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLine2D.h
 Quad.h
-/home/user/project-master/lib/AprilTags/Quad.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Quad.h
 Segment.h
-/home/user/project-master/lib/AprilTags/Segment.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Segment.h
 
-/home/user/project-master/lib/AprilTags/Quad.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Quad.h
 utility
 -
 vector
@@ -166,39 +166,39 @@ vector
 /usr/include/eigen3/Eigen/Dense
 -
 Homography33.h
-/home/user/project-master/lib/AprilTags/Homography33.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Homography33.h
 
-/home/user/project-master/lib/AprilTags/Segment.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Segment.cc
 Segment.h
-/home/user/project-master/lib/AprilTags/Segment.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Segment.h
 iostream
 -
 
-/home/user/project-master/lib/AprilTags/Segment.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Segment.h
 cmath
 -
 vector
 -
 
-/home/user/project-master/lib/AprilTags/TagDetection.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagDetection.cc
 opencv2/opencv.hpp
-/home/user/project-master/lib/AprilTags/opencv2/opencv.hpp
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/opencv2/opencv.hpp
 TagDetection.h
-/home/user/project-master/lib/AprilTags/TagDetection.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagDetection.h
 MathUtil.h
-/home/user/project-master/lib/AprilTags/MathUtil.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/MathUtil.h
 
-/home/user/project-master/lib/AprilTags/TagDetection.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagDetection.h
 /usr/include/eigen3/Eigen/Dense
 -
 opencv2/opencv.hpp
-/home/user/project-master/lib/AprilTags/opencv2/opencv.hpp
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/opencv2/opencv.hpp
 utility
 -
 vector
 -
 
-/home/user/project-master/lib/AprilTags/TagDetector.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagDetector.cc
 algorithm
 -
 cmath
@@ -214,77 +214,77 @@ iostream
 /usr/include/eigen3/Eigen/Dense
 -
 Edge.h
-/home/user/project-master/lib/AprilTags/Edge.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Edge.h
 FloatImage.h
-/home/user/project-master/lib/AprilTags/FloatImage.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/FloatImage.h
 Gaussian.h
-/home/user/project-master/lib/AprilTags/Gaussian.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Gaussian.h
 GrayModel.h
-/home/user/project-master/lib/AprilTags/GrayModel.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GrayModel.h
 GLine2D.h
-/home/user/project-master/lib/AprilTags/GLine2D.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLine2D.h
 GLineSegment2D.h
-/home/user/project-master/lib/AprilTags/GLineSegment2D.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/GLineSegment2D.h
 Gridder.h
-/home/user/project-master/lib/AprilTags/Gridder.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Gridder.h
 Homography33.h
-/home/user/project-master/lib/AprilTags/Homography33.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Homography33.h
 MathUtil.h
-/home/user/project-master/lib/AprilTags/MathUtil.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/MathUtil.h
 Quad.h
-/home/user/project-master/lib/AprilTags/Quad.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Quad.h
 Segment.h
-/home/user/project-master/lib/AprilTags/Segment.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/Segment.h
 TagFamily.h
-/home/user/project-master/lib/AprilTags/TagFamily.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagFamily.h
 UnionFindSimple.h
-/home/user/project-master/lib/AprilTags/UnionFindSimple.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/UnionFindSimple.h
 XYWeight.h
-/home/user/project-master/lib/AprilTags/XYWeight.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/XYWeight.h
 TagDetector.h
-/home/user/project-master/lib/AprilTags/TagDetector.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagDetector.h
 opencv/cv.h
 -
 opencv/highgui.h
 -
 
-/home/user/project-master/lib/AprilTags/TagDetector.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagDetector.h
 vector
 -
 opencv2/opencv.hpp
-/home/user/project-master/lib/AprilTags/opencv2/opencv.hpp
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/opencv2/opencv.hpp
 TagDetection.h
-/home/user/project-master/lib/AprilTags/TagDetection.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagDetection.h
 TagFamily.h
-/home/user/project-master/lib/AprilTags/TagFamily.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagFamily.h
 FloatImage.h
-/home/user/project-master/lib/AprilTags/FloatImage.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/FloatImage.h
 
-/home/user/project-master/lib/AprilTags/TagFamily.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagFamily.cc
 iostream
 -
 TagFamily.h
-/home/user/project-master/lib/AprilTags/TagFamily.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagFamily.h
 AprilTags/TagFamily.h
-/home/user/project-master/lib/AprilTags/AprilTags/TagFamily.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/AprilTags/TagFamily.h
 AprilTags/Tag36h11.h
-/home/user/project-master/lib/AprilTags/AprilTags/Tag36h11.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/AprilTags/Tag36h11.h
 AprilTags/Tag16h5.h
-/home/user/project-master/lib/AprilTags/AprilTags/Tag16h5.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/AprilTags/Tag16h5.h
 AprilTags/Tag16h5_other.h
-/home/user/project-master/lib/AprilTags/AprilTags/Tag16h5_other.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/AprilTags/Tag16h5_other.h
 AprilTags/Tag25h7.h
-/home/user/project-master/lib/AprilTags/AprilTags/Tag25h7.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/AprilTags/Tag25h7.h
 AprilTags/Tag25h9.h
-/home/user/project-master/lib/AprilTags/AprilTags/Tag25h9.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/AprilTags/Tag25h9.h
 AprilTags/Tag36h11.h
-/home/user/project-master/lib/AprilTags/AprilTags/Tag36h11.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/AprilTags/Tag36h11.h
 AprilTags/Tag36h11_other.h
-/home/user/project-master/lib/AprilTags/AprilTags/Tag36h11_other.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/AprilTags/Tag36h11_other.h
 AprilTags/Tag36h9.h
-/home/user/project-master/lib/AprilTags/AprilTags/Tag36h9.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/AprilTags/Tag36h9.h
 
-/home/user/project-master/lib/AprilTags/TagFamily.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagFamily.h
 climits
 -
 cmath
@@ -296,19 +296,19 @@ vector
 map
 -
 TagDetection.h
-/home/user/project-master/lib/AprilTags/TagDetection.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/TagDetection.h
 
-/home/user/project-master/lib/AprilTags/UnionFindSimple.cc
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/UnionFindSimple.cc
 UnionFindSimple.h
-/home/user/project-master/lib/AprilTags/UnionFindSimple.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/UnionFindSimple.h
 iostream
 -
 
-/home/user/project-master/lib/AprilTags/UnionFindSimple.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/UnionFindSimple.h
 vector
 -
 
-/home/user/project-master/lib/AprilTags/XYWeight.h
+/home/user/shared/BUSeniorProject2017/project-master/lib/AprilTags/XYWeight.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

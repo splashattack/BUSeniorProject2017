@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user/shared/BUSeniorProject2017/apriltags_interface/example/DetectionTest.cpp" "/home/user/shared/BUSeniorProject2017/apriltags_interface/build/example/CMakeFiles/aptiltags_interface.dir/DetectionTest.cpp.o"
+  "/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/example/DetectionTest.cpp" "/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/example/CMakeFiles/aptiltags_interface.dir/DetectionTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/user/shared/BUSeniorProject2017/apriltags_interface/build/lib/AprilTags/CMakeFiles/apriltaglib.dir/DependInfo.cmake"
-  "/home/user/shared/BUSeniorProject2017/apriltags_interface/build/sources/CMakeFiles/sources.dir/DependInfo.cmake"
+  "/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags/CMakeFiles/apriltaglib.dir/DependInfo.cmake"
+  "/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/sources/CMakeFiles/sources.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

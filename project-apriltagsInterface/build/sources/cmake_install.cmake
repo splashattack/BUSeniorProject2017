@@ -1,4 +1,4 @@
-# Install script for directory: /home/user/shared/BUSeniorProject2017/apriltags_interface/sources
+# Install script for directory: /home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

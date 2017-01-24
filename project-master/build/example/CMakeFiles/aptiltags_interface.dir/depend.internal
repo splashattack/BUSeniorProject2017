@@ -12,7 +12,7 @@ example/CMakeFiles/aptiltags_interface.dir/DetectionTest.cpp.o
  ../lib/AprilTags/TagDetection.h
  ../lib/AprilTags/TagDetector.h
  ../lib/AprilTags/TagFamily.h
- /home/user/project-master/example/DetectionTest.cpp
+ /home/user/shared/BUSeniorProject2017/project-master/example/DetectionTest.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

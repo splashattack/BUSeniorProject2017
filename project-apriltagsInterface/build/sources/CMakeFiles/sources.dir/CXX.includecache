@@ -58,11 +58,11 @@ map
 TagDetection.h
 ../lib/AprilTags/TagDetection.h
 
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/AprilTagInterface.cpp
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/AprilTagInterface.cpp
 AprilTagInterface.hpp
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/AprilTagInterface.hpp
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/AprilTagInterface.hpp
 
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/AprilTagInterface.hpp
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/AprilTagInterface.hpp
 string
 -
 list
@@ -84,19 +84,19 @@ fcntl.h
 errno.h
 -
 opencv2/opencv.hpp
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/opencv2/opencv.hpp
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/opencv2/opencv.hpp
 TagDetector.h
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/TagDetector.h
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/TagDetector.h
 Tag16h5.h
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/Tag16h5.h
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/Tag16h5.h
 Tag25h7.h
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/Tag25h7.h
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/Tag25h7.h
 Tag25h9.h
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/Tag25h9.h
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/Tag25h9.h
 Tag36h9.h
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/Tag36h9.h
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/Tag36h9.h
 Tag36h11.h
-/home/user/shared/BUSeniorProject2017/apriltags_interface/sources/Tag36h11.h
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/sources/Tag36h11.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

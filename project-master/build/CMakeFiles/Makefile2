@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/project-master
+CMAKE_SOURCE_DIR = /home/user/shared/BUSeniorProject2017/project-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/project-master/build
+CMAKE_BINARY_DIR = /home/user/shared/BUSeniorProject2017/project-master/build
 
 #=============================================================================
 # Directory level rules for directory lib/AprilTags
@@ -74,7 +74,7 @@ lib/AprilTags/preinstall:
 lib/AprilTags/CMakeFiles/apriltaglib.dir/all:
 	$(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/depend
 	$(MAKE) -f lib/AprilTags/CMakeFiles/apriltaglib.dir/build.make lib/AprilTags/CMakeFiles/apriltaglib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/project-master/build/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14
 	@echo "Built target apriltaglib"
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/all
 
@@ -84,9 +84,9 @@ all: lib/AprilTags/CMakeFiles/apriltaglib.dir/all
 
 # Build rule for subdir invocation for target.
 lib/AprilTags/CMakeFiles/apriltaglib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project-master/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 lib/AprilTags/CMakeFiles/apriltaglib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles 0
 .PHONY : lib/AprilTags/CMakeFiles/apriltaglib.dir/rule
 
 # Convenience name for target.
@@ -124,7 +124,7 @@ src/preinstall:
 src/CMakeFiles/sources.dir/all:
 	$(MAKE) -f src/CMakeFiles/sources.dir/build.make src/CMakeFiles/sources.dir/depend
 	$(MAKE) -f src/CMakeFiles/sources.dir/build.make src/CMakeFiles/sources.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/project-master/build/CMakeFiles  16
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles  16
 	@echo "Built target sources"
 .PHONY : src/CMakeFiles/sources.dir/all
 
@@ -134,9 +134,9 @@ all: src/CMakeFiles/sources.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/sources.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project-master/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/sources.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/sources.dir/rule
 
 # Convenience name for target.
@@ -175,7 +175,7 @@ example/CMakeFiles/aptiltags_interface.dir/all: lib/AprilTags/CMakeFiles/aprilta
 example/CMakeFiles/aptiltags_interface.dir/all: src/CMakeFiles/sources.dir/all
 	$(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/depend
 	$(MAKE) -f example/CMakeFiles/aptiltags_interface.dir/build.make example/CMakeFiles/aptiltags_interface.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/project-master/build/CMakeFiles  15
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles  15
 	@echo "Built target aptiltags_interface"
 .PHONY : example/CMakeFiles/aptiltags_interface.dir/all
 
@@ -185,9 +185,9 @@ all: example/CMakeFiles/aptiltags_interface.dir/all
 
 # Build rule for subdir invocation for target.
 example/CMakeFiles/aptiltags_interface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project-master/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/aptiltags_interface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/shared/BUSeniorProject2017/project-master/build/CMakeFiles 0
 .PHONY : example/CMakeFiles/aptiltags_interface.dir/rule
 
 # Convenience name for target.

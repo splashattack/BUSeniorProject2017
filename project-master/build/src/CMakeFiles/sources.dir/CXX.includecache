@@ -94,9 +94,9 @@ map
 TagDetection.h
 ../lib/AprilTags/TagDetection.h
 
-/home/user/project-master/src/AprilTagInterface.cpp
+/home/user/shared/BUSeniorProject2017/project-master/src/AprilTagInterface.cpp
 AprilTagInterface.hpp
-/home/user/project-master/src/AprilTagInterface.hpp
+/home/user/shared/BUSeniorProject2017/project-master/src/AprilTagInterface.hpp
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

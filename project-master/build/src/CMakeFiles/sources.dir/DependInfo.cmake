@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user/project-master/src/AprilTagInterface.cpp" "/home/user/project-master/build/src/CMakeFiles/sources.dir/AprilTagInterface.cpp.o"
+  "/home/user/shared/BUSeniorProject2017/project-master/src/AprilTagInterface.cpp" "/home/user/shared/BUSeniorProject2017/project-master/build/src/CMakeFiles/sources.dir/AprilTagInterface.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -94,9 +94,9 @@ Tag36h9.h
 Tag36h11.h
 ../sources/Tag36h11.h
 
-/home/user/shared/BUSeniorProject2017/apriltags_interface/example/DetectionTest.cpp
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/example/DetectionTest.cpp
 AprilTagInterface.hpp
-/home/user/shared/BUSeniorProject2017/apriltags_interface/example/AprilTagInterface.hpp
+/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/example/AprilTagInterface.hpp
 
 /usr/include/eigen3/Eigen/Cholesky
 Core
