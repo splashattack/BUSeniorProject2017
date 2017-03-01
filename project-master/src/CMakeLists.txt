@@ -1,1 +1,1 @@
-add_library(sources AprilTagInterface.cpp)
+add_library(sources AprilTagInterface.cpp FifoComm.cpp)
