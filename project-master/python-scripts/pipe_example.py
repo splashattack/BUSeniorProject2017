@@ -8,8 +8,8 @@ class Modes:
 FIFO_1 = "/tmp/client_to_server_fifo"
 FIFO_2 = "/tmp/server_to_client_fifo"
 
-def repsond(resp):
-  os.system("echo " + resp + " > " + FIFO_2)
+def respond(resp):
+  os.system("echo " + resp + " > " + FIFO_1)
   return
    
 
@@ -22,7 +22,7 @@ except OSError as oe:
 
 while True:
     print("Opening FIFO...")
-    with open(FIFO_1) as fifo:
+    with open(FIFO_2) as fifo:
         print("FIFO opened")
         while True:
             data = fifo.read()
