@@ -13,19 +13,12 @@
 #include <unistd.h>
 #include <wait.h>
 
-#define FIFO_FILE_1  "/tmp/client_to_server_fifo"
-#define FIFO_FILE_2  "/tmp/server_to_client_fifo"
+#define FIFO_FILE_1  "/tmp/server_to_client_fifo"
+#define FIFO_FILE_2  "/tmp/client_to_server_fifo"
+
+using namespace std;
 
 void sendMessage(std::string str);
 std::string recieveMessage();
 
-enum modes
-{
-    SABILIZE,
-    LOITER,
-    AUTO,
-    GUIDED,
-    RTL,
-    LAND
-}
 #endif

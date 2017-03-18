@@ -153,7 +153,7 @@ void AprilTagInterface::processFrame()
         // this relative pose is very non-Gaussian; see iSAM source code
         // for suitable factors.
         m_frame.push_back(currentTagInfo);
-    	}
+        }
 
     // print out the frame rate at which image frames are being processed
     frame++;

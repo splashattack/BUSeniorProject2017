@@ -1,47 +1,24 @@
 #include "FifoComm.hpp"
 
-using namespace std;
-
-void sendMessage(string str)
+void sendMessage(std::string str)
 {
-    cout << "Sending " << str << endl;
-    ostringstream os;
-    os << "echo " << str << " > " << FIFO_FILE_1 << endl;
+    std::cout << "Sending " << str << std::endl;
+    std::ostringstream os;
+    os << "echo " << str << " > " << FIFO_FILE_1 << std::endl;
     system(os.str().c_str());
     return;
 }
 
-string recieveMessage()
+std::string recieveMessage()
 {
-    int server_to_client = open(FIFO_FILE_2, O_RDONLY);
+    int client_to_server = open(FIFO_FILE_2, O_RDONLY);
     char str[140];
-    if(read(server_to_client,str,sizeof(str)) < 0){
+    if(read(client_to_server,str,sizeof(str)) < 0){
         perror("Read:"); //error check
         exit(-1);
     }
-    close(server_to_client);
-    return str;
+    close(client_to_server);
+    string retStr = str;
+    retStr = retStr.substr(0,retStr.find('\n'));
+    return retStr;
 }
-
-/*
-template <class T>
-T requestParam(string param)
-{
-    sendMessage(param);
-    string resp = recieveMessage();
-    T retVal;
-    switch(param)
-    {
-        //double values
-        case "lat":
-        case "lon":
-        case "alt":
-        case "altitude":
-        case "yaw":
-        case "pitch":
-        case "roll":
-            retVal = stod(resp);
-           
-    }
-}
-*/
