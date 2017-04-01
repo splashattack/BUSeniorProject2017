@@ -409,8 +409,34 @@ def send_global_velocity(velocity_x, velocity_y, velocity_z, duration):
     # send command to vehicle on 1 Hz cycle
     for x in range(0,duration):
         vehicle.send_mavlink(msg)
-        time.sleep(1)    
+        time.sleep(1)
 
+def send_offset_velocity(velocity_x, velocity_y, velocity_z, duration):
+    """
+    Move vehicle in direction based on specified velocity vectors and
+    for the specified duration.
+
+    This uses the SET_POSITION_TARGET_LOCAL_NED command with a type mask enabling only 
+    velocity components 
+    (http://dev.ardupilot.com/wiki/copter-commands-in-guided-mode/#set_position_target_local_ned).
+    
+    Note that from AC3.3 the message should be re-sent every second (after about 3 seconds
+    with no message the velocity will drop back to zero). In AC3.2.1 and earlier the specified
+    velocity persists until it is canceled. The code below should work on either version 
+    (sending the message multiple times does not cause problems).
+    
+    See the above link for information on the type_mask (0=enable, 1=ignore). 
+    At time of writing, acceleration and yaw bits are ignored.
+    """
+    msg = vehicle.message_factory.set_position_target_local_ned_encode(
+        0,       # time_boot_ms (not used)
+        0, 0,    # target system, target component
+        mavutil.mavlink.MAV_FRAME_BODY_OFFSET_NED, # frame
+        0b0000111111000111, # type_mask (only speeds enabled)
+        0, 0, 0, # x, y, z positions (not used)
+        velocity_x, velocity_y, velocity_z, # x, y, z velocity in m/s
+        0, 0, 0, # x, y, z acceleration (not supported yet, ignored in GCS_Mavlink)
+        0, 0)    # yaw, yaw_rate (not supported yet, ignored in GCS_Mavlink) 
 
 def checkFifo():
     TIMEOUT = 3 # seconds
@@ -492,24 +518,24 @@ def centerQuad(tagInfo):
     
     if (pos_y > 0.5):
         print "Centering L/R... (Left of target)"
-        send_ned_velocity(-0.5,0,0,abs(pos_y)*2) #Move Right
-        send_ned_velocity(0,0,0,1)
+        send_offset_velocity(0,-0.5,0,abs(pos_y)*2) #Move Right
+        send_offset_velocity(0,0,0,1)
     elif (pos_y < -0.5):
         print "Centering L/R... (Right of target)"
-        send_ned_velocity(0.5,0,0,abs(pos_y)*2) #Move Left
-        send_ned_velocity(0,0,0,1)
+        send_offset_velocity(0,0.5,0,abs(pos_y)*2) #Move Left
+        send_offset_velocity(0,0,0,1)
     else:
         print "Centered to L/R!"
         centeredLR = True
 
-    if (pos_y > 0.5):
+    if (pos_z > 0.5):
         print "Centering F/B... (Forward of target)"
-        send_ned_velocity(0,-0.5,0,abs(pos_y)*2) #Move Backward
-        send_ned_velocity(0,0,0,1)
-    elif (pos_y < -0.5):
+        send_offset_velocity(-0.5,0,0,abs(pos_z)*2) #Move Backward
+        send_offset_velocity(0,0,0,1)
+    elif (pos_z < -0.5):
         print "Centering F/B... (Behind target)"
-        send_ned_velocity(0,0.5,0,abs(pos_y)*2) #Move Forward
-        send_ned_velocity(0,0,0,1)
+        send_offset_velocity(0.5,0,0,abs(pos_z)*2) #Move Forward
+        send_offset_velocity(0,0,0,1)
     else:
         print "Centered to F/B!"  
         centeredFB = True
@@ -547,7 +573,7 @@ while(True):
             if(positionAttempts > MAX_POSITION_ATTEMPTS):
                 print "Cound not center over tag. Landing..."
                 break
-     else:
+    else:
         print "Lost tag. Landing..."
         break
 

@@ -90,6 +90,7 @@ def centerQuad(tagInfo):
     pos_x = tagInfo[0]
     pos_y = tagInfo[1] #Left(+)/Right(-)
     pos_z = tagInfo[2] #Forward(+)/Backward(-)
+    print str(pos_x) + "," + str(pos_y) + "," + str(pos_z)
     
     centeredFB = False
     centeredLR = False
@@ -107,11 +108,11 @@ def centerQuad(tagInfo):
         print "Centered to L/R!"
         centeredLR = True
 
-    if (pos_y > 0.5):
+    if (pos_z > 0.5):
         print "Centering F/B... (Forward of target)"
         #send_ned_velocity(0,-0.5,0,abs(pos_y)*2) #Move Backward
         #send_ned_velocity(0,0,0,1)
-    elif (pos_y < -0.5):
+    elif (pos_z < -0.5):
         print "Centering F/B... (Behind target)"
         #send_ned_velocity(0,0.5,0,abs(pos_y)*2) #Move Forward
         #send_ned_velocity(0,0,0,1)
