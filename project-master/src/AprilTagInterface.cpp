@@ -15,13 +15,12 @@ double tic() {
   return ((double)t.tv_sec + ((double)t.tv_usec)/1000000.);
 }
 
-
 AprilTagInterface::AprilTagInterface() :
     m_tagDetector(NULL),
     m_tagCodes(AprilTags::tagCodes36h11),
     m_timing(true),
-    m_width(320),
-    m_height(240),
+    m_width(640),
+    m_height(480),
     m_tagSize(0.166),
     m_fx(600),
     m_fy(600),
@@ -136,12 +135,6 @@ void AprilTagInterface::processFrame()
         Eigen::Matrix3d rotation;
         detections[i].getRelativeTranslationRotation(m_tagSize, m_fx, m_fy, m_px, m_py,
                                                      translation, rotation);
-
-        /*std::cout << "  distance=" << translation.norm()
-                  << "m, x=" << translation(0)
-                  << ", y=" << translation(1)
-                  << ", z=" << translation(2);
-        std::cout << std::endl;*/
 
         currentTagInfo.distance = translation.norm();
         currentTagInfo.pos_x = translation(0);

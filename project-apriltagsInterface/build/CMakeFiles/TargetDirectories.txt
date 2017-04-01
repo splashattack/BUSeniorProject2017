@@ -1,3 +1,0 @@
-/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/lib/AprilTags/CMakeFiles/apriltaglib.dir
-/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/example/CMakeFiles/aptiltags_interface.dir
-/home/user/shared/BUSeniorProject2017/project-apriltagsInterface/build/sources/CMakeFiles/sources.dir
