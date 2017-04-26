@@ -19,6 +19,6 @@
 using namespace std;
 
 void sendMessage(std::string str);
-std::string recieveMessage();
+std::string receiveMessage();
 
 #endif

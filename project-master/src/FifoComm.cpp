@@ -9,7 +9,7 @@ void sendMessage(std::string str)
     return;
 }
 
-std::string recieveMessage()
+std::string receiveMessage()
 {
     int client_to_server = open(FIFO_FILE_2, O_RDONLY);
     char str[140];
