@@ -32,4 +32,4 @@ include_directories(${V4L2_INCLUDE_DIRS})
 set (EXTRA_LIBS ${EXTRA_LIBS} ${V4L2_LIBRARIES})
 
 link_libraries(${EXTRA_LIBS})
-add_subdirectory("${PROJECT_SOURCE_DIR}/bin")
+add_subdirectory("${PROJECT_SOURCE_DIR}/examples")
