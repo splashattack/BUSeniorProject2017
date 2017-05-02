@@ -286,11 +286,11 @@ def centerQuad(tagInfo):
     centeredLR = False
     
     
-    if (pos_y > 0.5):
+    if (pos_y > 0.25):
         print "Centering L/R... (Left of target)"
         send_offset_velocity(0,-0.5,0,abs(pos_y)*2) #Move Right
         send_offset_velocity(0,0,0,1)
-    elif (pos_y < -0.5):
+    elif (pos_y < -0.25):
         print "Centering L/R... (Right of target)"
         send_offset_velocity(0,0.5,0,abs(pos_y)*2) #Move Left
         send_offset_velocity(0,0,0,1)
@@ -298,11 +298,11 @@ def centerQuad(tagInfo):
         print "Centered to L/R!"
         centeredLR = True
 
-    if (pos_z > 0.5):
+    if (pos_z > 0.25):
         print "Centering F/B... (Forward of target)"
         send_offset_velocity(-0.5,0,0,abs(pos_z)*2) #Move Backward
         send_offset_velocity(0,0,0,1)
-    elif (pos_z < -0.5):
+    elif (pos_z < -0.25):
         print "Centering F/B... (Behind target)"
         send_offset_velocity(0.5,0,0,abs(pos_z)*2) #Move Forward
         send_offset_velocity(0,0,0,1)
